@@ -1,1 +1,1 @@
-## here is the link to the web page [here](https://utkarshprakash19.github.io/Netflix-Frontend/)
+## here is the [LINK](https://utkarshprakash19.github.io/Netflix-Frontend/) to the web page 
