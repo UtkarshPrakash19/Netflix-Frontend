@@ -1,0 +1,461 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("NetFlixBackGrounf-3.png");
+  height: 80vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.44);
+}
+
+nav {
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 42px;
+}
+
+nav img {
+  margin-top: 20px;
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+/* Hero section styles */
+.hero {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  color: white;
+  height: calc(100vh - 62px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 10px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+/* Styling for child elements within .hero */
+#child1 {
+  font-weight: 200;
+  font-size: 28px;
+}
+
+#child2 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#child3 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px; /* Add gap between input and button */
+  height: 10px;
+}
+
+#Email {
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, 0.44);
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 10;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+}
+
+#Email:hover {
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.sepration {
+  height: 7px;
+  background-color: rgb(72, 71, 71);
+  position: relative;
+}
+
+.btnLang,
+.btn-getStarted,
+.btn-Signin {
+  margin-top: 20px;
+  padding: 8px 16px;
+  font-weight: bold;
+  border: 1px solid #08080800;
+  border-radius: 5px;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0);
+}
+
+.btnLang {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btnLang:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #00000000;
+}
+
+.btn-getStarted,
+.btn-Signin {
+  background-color: red;
+}
+
+.btn-getStarted:hover,
+.btn-Signin:hover {
+  background-color: #ff3333;
+  border-color: #ff3333;
+  box-shadow: 0 0 15px rgba(214, 0, 0, 0.5);
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.secImg {
+  max-width: 700px; /* Increased the maximum width */
+  margin: auto;
+  position: relative;
+}
+
+.secImg img {
+  width: 100%; /* Make the image cover the entire container */
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.secImg video {
+  position: absolute;
+  top: 12%;
+  left: 11.5%;
+  width: 75.5%;
+  height: 75.2%;
+  z-index: 1;
+  object-fit: cover; /* Ensures the video covers the image area */
+}
+
+#child4 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#child5 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#child6 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.sec2Img {
+  max-width: 1000px; /* Increased the maximum width */
+  margin: auto;
+  position: relative;
+}
+
+.sec2Img img {
+  width: 100%; /* Make the image cover the entire container */
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+#child7 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#child8 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#child9 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.Third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.sec3Img {
+  max-width: 700px; /* Increased the maximum width */
+  margin: auto;
+  position: relative;
+}
+
+.sec3Img img {
+  width: 100%; /* Make the image cover the entire container */
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.sec3Img video {
+  position: absolute;
+  top: 12%;
+  left: 11.5%;
+  width: 75.5%;
+  height: 75.2%;
+  z-index: 1;
+  object-fit: cover; /* Ensures the video covers the image area */
+}
+
+#child10 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#child11 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#child12 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.Forth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 50px;
+}
+
+.sec4Img {
+  max-width: 1000px; /* Increased the maximum width */
+  margin: auto;
+  position: relative;
+}
+
+.sec4Img img {
+  width: 100%; /* Make the image cover the entire container */
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+
+#child13 {
+  font-weight: 800;
+  font-size: 48px;
+}
+
+#child14 {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#child15 {
+  font-weight: 100;
+  font-size: 18px;
+}
+.Faq {
+  background: black;
+  color: white;
+  padding: 40px 20px; /* Increased padding for better spacing */
+}
+
+.Faq h2 {
+  text-align: center;
+  font-size: 32px; /* Increased font size */
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.FaQbox {
+  display: flex;
+  padding: 10px; /* Increased padding for better spacing */
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(30, 27, 27);
+  max-width: 80vw; /* Increased the maximum width */
+  margin: 10px auto; /* Added margin for better spacing */
+  border-radius: 8px; /* Increased border radius for smoother corners */
+  cursor: pointer; /* Added pointer cursor for interactivity */
+  transition: background-color 0.4s ease; /* Added transition for smooth hover effect */
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.FaQbox:hover {
+  background-color: rgba(253, 5, 5, 0.685); /* Darker background on hover */
+  transform: translateY(1px); /* Move the element 10px upwards on hover */
+ transform: translateX(5px); 
+}
+
+.FaQbox span {
+  flex-grow: 1;
+  font-size: 18px; /* Increased font size */
+}
+
+.FaQbox svg {
+  margin-left: 10px;
+  transition: transform 0.3s ease; /* Added transition for smooth rotation */
+}
+
+.FaQbox.active svg {
+  transform: rotate(45deg); /* Rotated icon for active state */
+}
+
+.FaQcontent {
+  max-width: 80vw;
+  margin: 0 auto 10px auto; /* Added margin for spacing */
+  padding: 10px 20px; /* Added padding for better spacing */
+  background-color: rgb(77, 76, 76); /* Background color for content */
+  border-radius: 8px; /* Rounded corners for content box */
+  display: none; /* Hidden by default */
+}
+
+.FaQbox.active + .FaQcontent {
+  display: block; /* Display content when the box is active */
+}
+.FaQbox svg {
+  margin-left: 10px;
+}
+.ReadyToWatch {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; /* Ensuring text color is white */
+}
+footer {
+  background-color: #000; /* Optional: Add a background color to the footer */
+}
+
+.fotter {
+  padding: 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: start; /* Align items to the top */
+  justify-items: start; /* Align items to the left */
+  text-align: left;
+}
+
+.fotter_item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Add space between links */
+  font-size: 10px;
+}
+
+.fotter_item a {
+  color: #ffffff; /* Ensure links are white */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+.fotter_item a:hover {
+  color: #ff0303; /* Change color on hover */
+  z-index: 20;
+  text-shadow: #ff3333;
+  transform: translateY(1px); /* Move the element 10px upwards on hover */
+ transform: translateX(3px); 
+}
+.questions {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 44px;
+  margin-top: 1px;
+  position: absolute;
+}
+.spaner {
+  margin-top: 30px;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+.spaner:hover{
+  color: #ff0303; /* Change color on hover */
+  z-index: 20;
+  text-shadow: #ff3333;
+  transform: translateY(1px); /* Move the element 10px upwards on hover */
+ transform: translateX(3px); 
+ 
+}
+.last {
+  color: white;
+  padding: 20px;
+  font-size: 18px;
+  margin-left: 44px;
+  margin-top: 1px;
+  position: absolute;
+}
+.spaner2 {
+  margin-top: 30px;
+  transition: .2s;
+  transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+.spaner2:hover{
+  color: #ff0303; /* Change color on hover */
+  z-index: 20;
+  text-shadow: #ff3333;
+  transform: translateY(5px); /* Move the element 10px upwards on hover */
+ 
+}
